@@ -161,3 +161,27 @@ const move7=()=>
 }
 
 document.querySelector('.p7').addEventListener('mouseenter',move7 );
+
+
+const move8=()=>
+{
+    
+    setTimeout(()=>
+    {const i=document.querySelector(".i8");
+    i.src="youtube2.png";
+    },1000);
+    setTimeout(()=>
+    {const i=document.querySelector(".i8");
+    i.src="youtube1.png";
+    },2000);
+    setTimeout(()=>
+    {const i=document.querySelector(".i8");
+    i.src="youtube2.png";
+    },3000);
+    setTimeout(()=>
+    {const i=document.querySelector(".i8");
+    i.src="youtube1.png";
+     },4000);
+}
+
+document.querySelector('.p8').addEventListener('mouseenter',move8 );
