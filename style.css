@@ -386,6 +386,9 @@ body {
     height: 50px;
     border-radius: 10px;
 }
+.side-list1 li:hover{
+    transform: scale(1.05);
+}
 
 .tfree {
     height: 100px;
@@ -691,6 +694,10 @@ background-color: aliceblue;
 
 margin-top: 20px;
 
+}
+.c1:hover {
+   transform: scale(1.2); 
+    
 }
 .links
 {
