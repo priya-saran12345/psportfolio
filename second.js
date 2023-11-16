@@ -185,3 +185,27 @@ const move8=()=>
 }
 
 document.querySelector('.p8').addEventListener('mouseenter',move8 );
+
+const move9=()=>
+{
+    
+    setTimeout(()=>
+    {const i=document.querySelector(".i9");
+    i.src="animation1.jpg";
+    },1000);
+    setTimeout(()=>
+    {const i=document.querySelector(".i9");
+    i.src="animation2.jpg";
+    },2000);
+    setTimeout(()=>
+    {const i=document.querySelector(".i9");
+    i.src="animation1.jpg";
+    },3000);
+    setTimeout(()=>
+    {const i=document.querySelector(".i9");
+    i.src="animation2.jpg";
+     },4000);
+}
+
+document.querySelector('.p9').addEventListener('mouseenter',move9 );
+
